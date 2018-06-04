@@ -1,7 +1,7 @@
 """
 Dhruv Jain
 XI-D
-Question 3
+Question 15
 """
 
 a = int(input("Enter first number: "))
