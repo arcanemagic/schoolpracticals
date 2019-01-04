@@ -1,8 +1,7 @@
-# -*- coding: utf-8 -*-
 """
-Created on Fri Jan  4 12:52:19 2019
-
-@author: amity
+Dhruv Jain
+XI-D
+Question 25
 """
 
 n = int(input("Enter number of numbers: "))
