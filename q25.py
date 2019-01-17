@@ -1,7 +1,7 @@
 """
 Dhruv Jain
 XI-D
-Question 3
+Question 25
 """
 
 l = eval(input("Enter numbers in  list "))
