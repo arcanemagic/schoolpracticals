@@ -1,16 +1,13 @@
 """
 Dhruv Jain
 XI-D
-Question 25
+Question 3
 """
 
-n = int(input("Enter number of numbers: "))
-l = []
-f = []
+l = eval(input("Enter numbers in  list "))
+d = {}
 
-for i in range(n):
-    l.append(int(input("Enter number: ")))
 for i in l:
-    if i not in f:
-        f.append(i)
-        print(i,":", l.count(i)*"*")
+    d[i] = l.count(i)
+for i in d:
+    print(i, '\t', '*' * d[i])
