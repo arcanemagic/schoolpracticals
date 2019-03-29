@@ -1,14 +1,14 @@
 """
 Dhruv Jain
 XII-D
-Question 1
+Question 12
 """
 
-f = open("1.txt", "w")
+f = open("text.txt", "w")
 f.write("Neither apple nor pine are in pineapple. Boxing rings are square.\nWriters write, but fingers don't fing. Overlook and oversee are opposites.\nA house can burn up as it burns down. An alarm goes off by going on.\n")
 f.close()
 
-f = open("1.txt", "a+")
+f = open("text.txt", "a+")
 f.seek(0)
 print(f.read())
 f.write("People in Poland are called Poles but people in Holland are not called Holes.\n")
