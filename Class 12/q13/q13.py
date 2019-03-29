@@ -1,7 +1,7 @@
 """
 Dhruv Jain
 XII-D
-Question 2
+Question 13
 """
 
 f1 = open("file1.txt", "r")
