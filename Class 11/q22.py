@@ -1,8 +1,7 @@
-# -*- coding: utf-8 -*-
 """
-Created on Thu Jul 12 13:45:48 2018
-
-@author: amity
+Dhruv Jain
+XI-D
+Question 22
 """
 
 s=input("Enter string: ")
