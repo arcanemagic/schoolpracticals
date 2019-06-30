@@ -18,7 +18,7 @@ if x == "e":
         elif a > ord("Z") and i.isupper():
             a = ord(i) + shift - 26
         key[i] = chr(a)
-    
+
     for i in inp.readlines():
         for j in i:
             if j.isalpha():
@@ -28,7 +28,7 @@ if x == "e":
             else:
                 pass
         out.write("\n")
-        
+
 if x == "d":
     for i in "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ":
         a = ord(i) - shift
@@ -37,7 +37,7 @@ if x == "d":
         elif a > ord("Z") and i.isupper():
             a = ord(i) - shift + 26
         key[i] = chr(a)
-        
+
     for i in inp.readlines():
         for j in i:
             if j.isalpha():
