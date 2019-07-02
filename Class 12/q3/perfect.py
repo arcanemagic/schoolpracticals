@@ -1,3 +1,9 @@
+"""
+Dhruv Jain
+XII-D
+Question 3
+"""
+
 def GenerateFactors(n):
     factors = []
     for i in range(1, (n//2) + 1):

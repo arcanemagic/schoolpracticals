@@ -1,3 +1,9 @@
+"""
+Dhruv Jain
+XII-D
+Question 3
+"""
+
 import perfect
 
 n = int(input("Enter number: "))
