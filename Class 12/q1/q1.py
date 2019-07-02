@@ -1,3 +1,9 @@
+"""
+Dhruv Jain
+XII-D
+Question 1
+"""
+
 password = input("Enter password: ").split(",")
 lower, upper, number, special = 0, 0, 0, 0
 
