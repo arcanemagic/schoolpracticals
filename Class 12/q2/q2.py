@@ -28,3 +28,8 @@ def show(n):
         divider *= 10
     result.insert(0, str(n))
     return '+'.join(result)
+
+print("No. of digits:", count(n))
+print("Reverse of number:", reverse(n))
+print(hasdigit(n))
+print("Expanded form of number:", show(n))
