@@ -5,30 +5,39 @@ Question 5
 """
 
 n = int(input("Enter number in decimals: "))
-r = 0
-num = ""
 c = input("Choose B for binary, O for octal, H for hexadecimal: ").upper()
-if n == 0:
-    num = "0"
+
+def binary(n):
+    if n < 2:
+        return str(n)
+    else:
+        return str(n%2) + binary(n//2)
+
+def octal(n):
+    if n < 8:
+        return str(n)
+    else:
+        return str(n%8) + octal(n//8)
+
+def hex(n):
+    if n < 16:
+        if n > 9:
+            n = chr(ord("A")+n-10)
+        return str(n)
+    else:
+        a = n%16
+        if a>9:
+            a = chr(ord("A")+a-10)
+        return str(a) + hex(n//16)
+
 if c == "B":
-    while n!=0:
-        r = n%2
-        num += str(r)
-        n = n//2
+    print(binary(n)[::-1])
 
 elif c == "O":
-    while n!=0:
-        r = n%8
-        num += str(r)
-        n = n//8
+    print(octal(n)[::-1])
 
 elif c == "H":
-    while n!=0:
-        r = n%16
-        if r>9:
-            r = chr(ord("A")+r-10)
-        num += str(r)
-        n = n//16
+    print(hex(n)[::-1])
+
 else:
     print("Number system not recognized!")
-print(num[::-1])
