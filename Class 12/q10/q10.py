@@ -8,7 +8,7 @@ from tkinter import *
 from tkinter import messagebox
 
 root = Tk()
-root.title("Simple Interest Calculator")
+root.title("SI Calculator")
 P = StringVar()
 R = StringVar()
 T = StringVar()
