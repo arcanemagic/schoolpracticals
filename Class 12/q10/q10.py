@@ -25,7 +25,7 @@ def clicked():
     t = int(T.get())
     si = (p*r*t)/100
     messagebox.showinfo("Simple Interest", "Your interest is: "+str(si))
-Button(root, text="Calculate", command=clicked).grid(column=0, row=4)
-Button(root, text="Exit", command=root.destroy).grid(column=2, row=4)
+Button(root, text="Calculate Interest", command=clicked).grid(column=0, row=4)
+Button(root, text="I am not interested", command=root.destroy).grid(column=2, row=4)
 
 root.mainloop()
