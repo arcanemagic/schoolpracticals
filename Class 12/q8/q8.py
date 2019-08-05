@@ -32,6 +32,8 @@ def isCircular(l1, l2):
         l4 += str(i)
     if l4 in l3 or l4[::-1] in l3:
         return True
+    else:
+        return False
 
 print("Merged list:", merge(l1,l2))
 print("Sum of common elements:", commonSum(l1,l2))
