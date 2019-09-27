@@ -1,8 +1,7 @@
-# -*- coding: utf-8 -*-
 """
-Created on Tue Sep 24 10:28:22 2019
-
-@author: SCL1
+Dhruv Jain
+XII-D
+Database Management Q3
 """
 
 import mysql.connector
